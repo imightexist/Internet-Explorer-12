@@ -13,3 +13,4 @@ Changelog:
 - new ... button (going to be a menu for more controls)
 - new icon (from iconarchive)
 - changed title to beta 0.2.1
+- the icon no longer only affects the window
