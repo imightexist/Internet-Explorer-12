@@ -39,7 +39,12 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
+            new dotdotdot().Show();
+        }
 
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            //webBrowser1.Size = Form1.
         }
     }
 }
