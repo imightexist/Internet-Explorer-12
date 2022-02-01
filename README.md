@@ -11,5 +11,5 @@ Since we were making this on CollabVM, someone ruined it, so we'll probably do i
 Changelog:
 - tabs (again, not functional)
 - new ... button (going to be a menu for more controls)
-- new icon
+- new icon (from iconarchive)
 - changed title to beta 0.2.1
