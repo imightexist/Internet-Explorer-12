@@ -7,7 +7,7 @@ Current version: v0.2.2-beta
 
 Currently working on: v0.2.3-beta
 
-#Changelog
+# Changelog
 - ... button is now functional
 - about button
 - new window button
