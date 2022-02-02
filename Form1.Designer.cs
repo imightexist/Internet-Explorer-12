@@ -30,7 +30,6 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -87,7 +86,7 @@ namespace WindowsFormsApp1
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(519, 309);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Tab 1";
+            this.tabPage1.Text = "Tab";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // webBrowser1
@@ -122,19 +121,17 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.textBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Internet Explorer 12 - Beta 0.2.2";
+            this.Text = "Internet Explorer 12 - Beta 0.2.3";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
-            this.Resize += Form1_Resize;
-            //this.Size.Width = System.Drawing.Size.Width;
 
         }
 
         private void Form1_Resize1(object sender, System.EventArgs e)
         {
-            
+
         }
 
         #endregion

@@ -34,7 +34,8 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
+            
+            tabControl1.TabPages.Add(tabPage1);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -42,9 +43,6 @@ namespace WindowsFormsApp1
             new dotdotdot().Show();
         }
 
-        private void Form1_Resize(object sender, EventArgs e)
-        {
-            //webBrowser1.Size = Form1.
-        }
+        private void Form1_Resize(object sender, EventArgs e) => webBrowser1.Size = new Size(this.Width, this.Height - 98);//MessageBox.Show("h", "h");
     }
 }

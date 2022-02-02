@@ -52,7 +52,7 @@ namespace WindowsFormsApp1
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(141, 39);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Internet Explorer v0.2.2-beta\r\nMade by iexist\r\ncum";
+            this.label2.Text = "Internet Explorer v0.2.3-beta\r\nMade by iexist\r\ncum";
             // 
             // pictureBox1
             // 
