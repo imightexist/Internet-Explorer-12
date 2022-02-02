@@ -3,13 +3,12 @@ A csharp browser for <b>Windows</b>
 
 Proudly made by the CollabVM and BetterVM community.
 
-Current version: v0.2.2-beta
+Current version: v0.2.3-beta
 
-Currently working on: v0.2.3-beta
+Currently working on: v0.2.4-beta
 
 # Changelog
-- ... button is now functional
-- about button
-- new window button
-- as if there isn't already a close button, new exit button
+- tabs lol
+- options window is smaller
+- tried to fix resizing bug but still not working
 - changed title to beta 0.2.2
