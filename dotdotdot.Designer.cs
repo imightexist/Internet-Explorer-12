@@ -77,6 +77,16 @@ namespace WindowsFormsApp1
             this.Name = "dotdotdot";
             this.Text = "Other controls";
             this.ResumeLayout(false);
+            //
+            // button4
+            //
+            this.button4.Location = new System.Drawing.Point(3, 15);
+            this.button4.Name = "button3";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Exit";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
 
         }
 
@@ -85,5 +95,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
