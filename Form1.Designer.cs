@@ -126,6 +126,7 @@ namespace WindowsFormsApp1
             this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.Resize += this.Form1_Resize;
 
         }
 
