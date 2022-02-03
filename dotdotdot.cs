@@ -31,5 +31,10 @@ namespace WindowsFormsApp1
         {
             Application.Exit();
         }
+        
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Update feature coming soon","fuck off");
+        }
     }
 }
