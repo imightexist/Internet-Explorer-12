@@ -43,6 +43,8 @@ namespace WindowsFormsApp1
             new dotdotdot().Show();
         }
 
-        private void Form1_Resize(object sender, EventArgs e) => webBrowser1.Size = new Size(this.Width, this.Height - 98);//MessageBox.Show("h", "h");
+        private void Form1_Resize(object sender, EventArgs e) {
+            tabControl1.Size = new Size(this.Width, this.Height);//MessageBox.Show("h", "h");
+        }
     }
 }
