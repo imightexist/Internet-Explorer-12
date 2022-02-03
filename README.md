@@ -1,7 +1,5 @@
 # Internet-Explorer-12
-A csharp browser for <b>Windows</b>
-
-Proudly made by the CollabVM and BetterVM community.
+A csharp browser for Windows
 
 Current version: v0.2.3-beta
 
