@@ -1,13 +1,12 @@
 # Internet-Explorer-12
 A csharp browser for Windows
 
-Current version: v0.2.4-beta
+Current version: v0.2.5-beta
 
-Currently working on: v0.2.5-beta
+Currently working on: v12.0 and IE12 Premium
 
 # Changelog
-- first version to be untested
-- first version not uploaded from visual studio
-- first version to not be made in collabvm (v0.2.3-beta will probably be the last version to be made in collabvm)
-- resize bug fix
-- changed title to beta 0.2.4
+- added github link to about window
+- added discord server link to about window
+- you can now create Form1 with a website preloaded, for example: new Form1("google.com").Show()
+- changed title to beta 0.2.5
