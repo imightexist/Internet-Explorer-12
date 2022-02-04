@@ -26,5 +26,15 @@ namespace WindowsFormsApp1
         {
             //System.Diagnostics.Process.Start("github.com/imightexist/Internet-Explorer-12")
         }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form1("github.com/imightexist/Internet-Explorer-12").Show();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form1("https://discord.gg/xhGS5Vc89r").Show();
+        }
     }
 }

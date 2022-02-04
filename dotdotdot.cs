@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
+            new Form1("google.com").Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -31,10 +31,10 @@ namespace WindowsFormsApp1
         {
             Application.Exit();
         }
-        
-        private void button4_Click(object sender, EventArgs e)
+
+        private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Update feature coming soon","fuck off");
+            MessageBox.Show("Update feature coming soon", "fuck off");
         }
     }
 }
