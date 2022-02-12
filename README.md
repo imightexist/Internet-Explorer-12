@@ -3,7 +3,7 @@ A csharp browser for Windows
 
 Current version: v0.2.5-beta
 
-Currently working on: v0.2.6-beta
+Currently working on: v12
 
 # Changelog
 - added github link to about window
